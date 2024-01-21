@@ -1,0 +1,20 @@
+/* diplay dibagi menjadi 4 : */
+/* 1. inline  */ 
+/* tidak menambahkan baris baru ketika dibuat */
+/* width dan height elementnya sebesar konten yang ada di dalam nya  */
+/* tidak dapat mengatur heigh dan width nya */
+/* margin dan padding hanya mempengaruhi element secara horizontal, tidak vertikal */
+/* tag nya : b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea,... */
+
+/* 2. inline-block */
+/* tidak ada element yang default nya memiliki properti display: inline-blovk, harus di ubah manual */
+/* sama seperti inline, perbedaannya hanya bisa di atur height dan width */
+
+/* 3. block */
+/* menambahkan baris baru */
+/* default width nya full  */
+/* bisa mengatur width dan height nya */
+/* tag nya : h1-h6, p, ol, ul, li, form, hr, div */
+
+/* 4. none */
+/* untuk menghilangkan suatu element */

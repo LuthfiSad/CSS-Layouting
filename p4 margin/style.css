@@ -1,0 +1,48 @@
+/* Margin */
+/* overlapping margin = dua margin saling ketemu */
+/* negatif margin = nilai negatif untuk margin*/
+/* auto */
+/* shorthand = menyingkan sintax dari margin */
+
+
+/* example */
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    /* overlapping margin = ketika horizontal akan menambah (150px + 50px), ketika vertikal akan mengambil yang paling besar yaitu 150px dari .satu*/
+    margin-top: 50px;
+    /* negatif margin = mengarah berlawanan */
+    margin-top: -100px;
+}
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    /* margin auto hanya untuk horizontal jika hanya 1 akan 100% */
+    margin-left: auto;
+    margin-right: auto;
+}
+.empat {
+    width: 25px;
+    height: 25px;
+    background-color: lightcoral;
+    /* margin shorthand */
+    /* 1 margin = fullkotak */
+    /* margin : 50px */
+    /* 2 margin = vertikal hotizontal */
+    /* margin : 40px auto */
+    /* 3 margin =  atas horizontal bawah*/
+    /* margin: 20px auto 50px; */
+    /* 4 margin = searah jarum jam, dari atas kanan bawah kiri */
+    margin: 10px 20px 30px 40px;
+}   

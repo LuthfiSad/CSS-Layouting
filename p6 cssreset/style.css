@@ -1,0 +1,16 @@
+/* css reset = mengatur ulang nilai default dari element khususnya margin dan padding */
+/* agar full, dan bodynya tidak ada padding dan margin nya */
+
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* atau menggunakan */
+/* https://meyerweb.com/eric/tools/css/reset/ */
+/*  */
+div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

@@ -1,0 +1,4 @@
+/* z-index = digunakan untuk mengatur tumpukan dari element ketika dikasih element yang non-static */
+/* agar tumpukan nya di atur semau nya. tidak mengubah halaman bodynya */
+/* value nya jika nilainya z-index makin besar maka akan ditampilkan makin depan */
+/* value dapat bernilai negative kalau mau di paling belakang */

@@ -1,0 +1,56 @@
+/* float = mengatur posisi element secara paksa dari suatu parentnya */
+/* value float : right, left, none(default) */
+/* tetapi akan di anggap tidak ada karena sudah keluar dari flownya */
+
+/* clear float */
+/* 1. menggunakan properti overflow : auto = tidak di anjurkan */
+/* 2. menggunakan <div> kosong = tidak di anjurkan karena membuat sintax tidak rapih karena ada div kosong */
+/* 3. menggunakan taknik micro clearfix */
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    /* contoh 1 clear float */
+    /* tidak di anjurkan */
+    /* overflow: auto; */
+}
+
+img{
+    float: left;
+    margin: 5px;
+}
+
+/* contoh 2 clear float */
+/* .clear{ */
+    /* 3 value = right, left, both(gabungan) */
+    /* clear: both; */
+/* } */
+
+/* contoh 3 clear float */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

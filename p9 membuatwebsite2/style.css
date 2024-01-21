@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* sintax */
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+}
+.container {
+    background-color: #fff;
+    width: 660px;
+    margin: auto;
+    border: 1px solid black;
+}
+/* header */
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.header ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+.header ul li a:hover {
+    background-color: lightskyblue;
+    color: #fff;
+}
+/*  */
+/* hero */
+.hero {
+    height: 300px;
+    background-image: url('img/hero.jpeg');
+    background-size: cover;
+    /* horizontal vertical */
+    background-position: 0px -5px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+/*  */
+/* content */
+.content:before,
+.content:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.content:after {
+    clear: both;
+}
+
+.content {
+    *zoom: 1;
+}
+.main {
+    padding: 10px;
+    width: 400px;
+    box-sizing: border-box;
+    float: left;
+}
+.main h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.main .penulis{
+    font-size: 11px;
+    margin-top: -7px;
+}
+.main .penulis a{
+    text-decoration: none;
+    color: salmon;
+}
+.main p{
+    margin-bottom: 10px;
+}
+/*  */
+/* sidebar */
+.sidebar{
+    width: 200px;
+    padding: 10px;
+    float: right;
+}
+.sidebar h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.sidebar img {
+    width: 70px;
+    margin: 5px;
+    border: 1px double salmon;
+    border-radius: 50%;
+    float: left;
+}
+.sidebar p{
+    font: 12px/18px arial;
+}
+/*  */
+/* footer */
+.footer{
+    padding: 5px;
+    background-color: black;
+}
+.footer .copy{
+    text-align: center;
+    font-size: 12px;
+    color: #eaeaea;
+}
+/*  */

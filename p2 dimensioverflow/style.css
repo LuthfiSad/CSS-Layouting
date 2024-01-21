@@ -1,0 +1,12 @@
+/* dimensi terbagi 2 : */
+/* width, height = lebar dan tinggi */
+/* satuan dari dimendi : */
+/* absolute : px, in, cm, mm, pt, pc */
+/* relative : %, em, ex, ch, rem, vw, vh, vmin, vmax */
+
+/* overflow */
+/* visible, auto, hidden, scroll */
+/* visible = default */
+/* auto = akan menambahkan scroll ketika element/content tidak cukup, jika cukup scroll akan hilang */
+/* hidden = akan menghilangkan kelebihan element/content yang keluar */
+/* scroll = akan menampilkan scroll apapun keadaannya walaupun content tidak lebih */

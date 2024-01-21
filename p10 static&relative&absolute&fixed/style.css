@@ -1,0 +1,10 @@
+/* position = menggeserkan element tanpa mempengaruhi element di sekitarnya / tidak merubah posisi sekitarnya */
+/* value position : static, relative, absolute, fixed */
+/* static = default nya */
+/* position yang selain static dapat menggunakan properti top, left, bottom, right untuk mengatur posisi */
+/* relative : ruang akan di anggap masih ada, walaupun sudah di beri properti top, left, bottom, right */
+/* posisi relative akan mengikuti posisi awalnya */
+/* absolute : tidak memiliki ruang, akan di anggap tidak ada, dan sekitarnya akan menganggap tidak memiliki ruang */
+/* posisi absolute akan mengikuti parent nya, jika parent  nya non-static */
+/* fixed : sama seperti absolute, tetapi selalu mengikuti layar */
+/* posisi fixed akan mengikuti windows nya */
